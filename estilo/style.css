@@ -33,10 +33,10 @@ section#login{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
     overflow: hidden; /*Tudo que estiver fora da borda vai ficar escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -88,12 +88,12 @@ form > div.campo > span{
 form > div.campo > input{
     padding: 4px;
     height: 100%;
-    width: calc(100% - 44.8px);
-    transform: translateY(-12px);
+    width: calc(100% - 44.8px); 
     border-radius: 8px;
     border: none;
     background-color: #94cfcd;
     font-size: 1em;
+    transform: translateY(-12px);
 }
 form > div.campo > input:focus-within{ /*vai ganhar foco quando estiver digitando*/
     background-color: white;
