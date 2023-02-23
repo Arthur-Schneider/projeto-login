@@ -36,13 +36,15 @@ section#login{
     border-radius: 20px;
     overflow: hidden; /*Tudo que estiver fora da borda vai ficar escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#foto{
     display: block;
     background-image: url(../imagens/pexels-rodolfo-clix-1036936.jpg);
     background-position: center right;
-    background-size: 490px;
+    background-size: 605px;
     background-repeat: no-repeat;
     height: 200px;
 }
