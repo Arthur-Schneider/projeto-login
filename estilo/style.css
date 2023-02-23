@@ -93,7 +93,7 @@ form > div.campo > input{
     border: none;
     background-color: #94cfcd;
     font-size: 1em;
-    transform: translateY(-13px);
+    transform: translateY(-12px);
 }
 form > div.campo > input:focus-within{ /*vai ganhar foco quando estiver digitando*/
     background-color: white;
