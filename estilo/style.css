@@ -95,6 +95,9 @@ form > div.campo > input{
     background-color: #94cfcd;
     font-size: 1em;
 }
+form > div.campo > input:focus-within{ /*vai ganhar foco quando estiver digitando*/
+    background-color: white;
+}
 
 
 /*Botões de Entrar e Esqueci a senha*/
