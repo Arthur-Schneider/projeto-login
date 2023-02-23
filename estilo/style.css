@@ -25,10 +25,11 @@ main{
     position: relative;
 }
 
+/*Página do login*/
 section#login{
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -40,6 +41,7 @@ section#login{
     transition-timing-function: ease;
 }
 
+/*Foto*/
 section#login > div#foto{
     display: block;
     background-image: url(../imagens/pexels-rodolfo-clix-1036936.jpg);
@@ -49,6 +51,7 @@ section#login > div#foto{
     height: 200px;
 }
 
+/*Formulário*/
 section#login > div#formulario{
     display: block;
     padding: 10px;
@@ -62,13 +65,16 @@ section#login > div#formulario > p{
     margin-bottom: 10px;
 }
 
+/*Inputs*/
 form > div.campo{
     display: block;
     width: 100%;
     height: 40px;
     margin: 5px 0px;
     background-color: #5f2c82;
-    border-radius: 5px;
+    border: 2px solid #5f2c82;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
 }
 div.campo > label{
     display: none;
@@ -77,21 +83,21 @@ form > div.campo > span{
     font-size: 2em;
     padding: 5px;
     color: white;
-    width: 20%;
+    width: 40px;
 }
 form > div.campo > input{
-    position: absolute;
-    margin-top: 2px;
-    margin-right: 1px;
-    padding: 2px;
-    height: 36px;
-    width: 65%;
-    border-radius: 6px;
+    padding: 4px;
+    height: 100%;
+    width: calc(100% - 44.8px);
+    transform: translateY(-12px);
+    border-radius: 8px;
     border: none;
-    background-color: #88e0dd;
+    background-color: #94cfcd;
     font-size: 1em;
 }
 
+
+/*Botões de Entrar e Esqueci a senha*/
 form > input[type=submit]{
     display: block;
     width: 100%;
@@ -103,6 +109,7 @@ form > input[type=submit]{
     border-radius: 5px;
     margin-top: 5px;
     cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
 }
 form > input[type=submit]:hover{
     background-color: #2f6d6b;
@@ -120,6 +127,7 @@ form > a.botao{
     margin-top: 5px;
     padding-top: 7px;
     cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
 }
 form > a.botao > span{
     font-size: .8em;
