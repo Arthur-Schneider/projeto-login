@@ -51,12 +51,26 @@ section#login > div#foto{
 
 section#login > div#formulario{
     display: block;
-    font-size: 0.9em;
     padding: 10px;
 }
-
 section#login > div#formulario > h1{
     text-align: center;
-    padding: 10px;
+    margin-bottom: 10px;
+}
+section#login > div#formulario > p{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+
+section#login > div#formulario > form >div#email{
+    background-color: #5f2c82;
+    border-radius: 10px;
+}
+section#login > div#formulario > form >div#email > input#iemail{
+    background-color: #49a09d;
+    width: 100px;
+    height: 35px;
+    margin: 2px;
 }
 
